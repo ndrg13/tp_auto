@@ -25,4 +25,35 @@ public class Concession {
     public Concession() {
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getConcession() {
+        return concession;
+    }
+
+    public void setConcession(String concession) {
+        this.concession = concession;
+    }
+
+    public Set<Adresse> getAdresseSet() {
+        return adresseSet;
+    }
+
+    public void setAdresseSet(Set<Adresse> adresseSet) {
+        this.adresseSet = adresseSet;
+    }
+
+    public Set<Marque> getMarqueSet() {
+        return marqueSet;
+    }
+
+    public void setMarqueSet(Set<Marque> marqueSet) {
+        this.marqueSet = marqueSet;
+    }
 }

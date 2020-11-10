@@ -19,4 +19,27 @@ public class Adresse {
     public Adresse() {
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public Concession getConcession() {
+        return concession;
+    }
+
+    public void setConcession(Concession concession) {
+        this.concession = concession;
+    }
 }

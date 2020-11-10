@@ -21,4 +21,27 @@ public class Client {
     public Client() {
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getClient() {
+        return client;
+    }
+
+    public void setClient(String client) {
+        this.client = client;
+    }
+
+    public Set<Voiture> getVoitureSet() {
+        return voitureSet;
+    }
+
+    public void setVoitureSet(Set<Voiture> voitureSet) {
+        this.voitureSet = voitureSet;
+    }
 }

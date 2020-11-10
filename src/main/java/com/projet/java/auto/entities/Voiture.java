@@ -22,5 +22,36 @@ public class Voiture {
     public Voiture() {
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getVoiture() {
+        return voiture;
+    }
+
+    public void setVoiture(String voiture) {
+        this.voiture = voiture;
+    }
+
+    public Marque getMarque() {
+        return marque;
+    }
+
+    public void setMarque(Marque marque) {
+        this.marque = marque;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
 }
 

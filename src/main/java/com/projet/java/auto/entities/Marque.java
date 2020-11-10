@@ -25,4 +25,35 @@ public class Marque {
     public Marque() {
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getMarque() {
+        return marque;
+    }
+
+    public void setMarque(String marque) {
+        this.marque = marque;
+    }
+
+    public Set<Voiture> getVoitureSet() {
+        return voitureSet;
+    }
+
+    public void setVoitureSet(Set<Voiture> voitureSet) {
+        this.voitureSet = voitureSet;
+    }
+
+    public Set<Concession> getConcessionSet() {
+        return concessionSet;
+    }
+
+    public void setConcessionSet(Set<Concession> concessionSet) {
+        this.concessionSet = concessionSet;
+    }
 }
